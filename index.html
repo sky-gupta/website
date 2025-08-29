@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aakash Gupta</title>
+  <link rel="stylesheet" href="design.css">
+  <script defer src="interface.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function() {
+      emailjs.init("vK6g94H6effdQDLU2");
+   })();
+</script>
+
+</head>
+<button id="goTopBtn" title="Go to top">&#8679;</button>
+<body>
+  <!-- Header / Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Aakash Gupta</div>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#experiences" class="nav-item">Experiences</a></li>
+        <li><a href="#achievements" class="nav-item">Achievements</a></li>
+        <li><a href="#projects" class="nav-item">Projects</a></li>
+        <li><a href="#extracurriculars" class="nav-item">Extracurricular</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+<section id="about" class="hero">
+  <div class="about-flex">
+    <div class="hero-text">
+      <h1>Hello, I'm <span class="highlight">Aakash Gupta</span></h1>
+      <p>Computer science engineer</p>
+      <div class="profile-links">
+        <a href="https://www.instagram.com/aa_kashgupta?igsh=MTA4NmMydGFkcHR5dw==" target="_blank" class="profile-icon" title="Instagram">
+          <img src="assets/instagram.webp" alt="Instagram Logo" />
+        </a>
+        <a href="https://github.com/sky-gupta" target="_blank" class="profile-icon" title="GitHub">
+          <img src="assets/github.png" alt="GitHub Logo" />
+        </a>
+        <a href="https://www.linkedin.com/in/aakash-gupta-774a03278/" target="_blank" class="profile-icon" title="LinkedIn">
+          <img src="assets/linkedin.png" alt="LinkedIn Logo" />
+        </a>
+      </div>
+      <div class="cv-download-row">
+        <a href="assets/resume_web.pdf" download class="cv-download-btn">
+          <button>Download CV</button>
+        </a>
+      </div>
+    </div>
+        <div class="hero-pic">
+      <img src="assets/profile.jpg" alt="Profile Picture" class="profile-pic">
+    </div>
+  </div>
+</section>
+
+  <!-- About Section -->
+  <section id="experiences" class="section">
+    <h2>Experiences</h2>
+    <div class="experience-options">
+  <div class="exp-btn" data-exp="internships">Internships</div>
+  <div class="exp-btn" data-exp="research">Research</div>
+  <div class="exp-btn" data-exp="education">Education</div>
+  <!-- <div class="exp-btn" data-exp="teaching">Teaching Assistantships</div> -->
+  <div class="exp-btn" data-exp="tech">Tech Teams</div>
+  <div class="exp-btn" data-exp="mentor">Mentorship</div>
+    </div>
+    <div class="exp-content-group">
+    <div class="exp-content" id="internships">
+        <h3>Internships</h3>
+        <!-- intern 1 -->
+         <div class="exp-card">
+          <img src="assets/tum-logo.png" alt="TUM Logo" class="exp-logo">
+          <div class="exp-details">
+            <h3>Technical University of Munich</h3>
+            <span class="exp-duration">May 2025 – July 2025</span>
+            <ul>
+              <li>Designed RL pipelines with Q-learning and Actor-Critic to learn ϵ-optimal strategies in black- and grey-box settings.</li>
+              <li>Implemented PAC-based model checking for MDPs and SMGs using Stormpy for unbounded reachability.</li>
+              <li>Extended simulation-based bounded value iteration with confidence-controlled updates and early termination.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- intern 2 -->
+    </div>
+    <div class="exp-content" id="research">
+        <h3>Research</h3>
+         <!-- Research Section -->
+          <div class="exp-card">
+          <img src="assets/iitb-logo.png" alt="IIT Bombay Logo" class="exp-logo">
+          <div class="exp-details">
+            <h3>Research & Development | IIT Bombay</h3>
+            <span class="exp-duration">Prof. Sujoy Bhore | Jan 2025 – Apr 2025</span>
+            <ul>
+              <li>Studied approximation algorithms for bicriteria top-k selection with diversity–utility trade-offs in <code>O(n + k log k)</code>.</li>
+              <li>Implemented Max-Sum and Min-Max diversification algorithms using ϵ-net constructions and greedy methods.</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    <div class="exp-content" id="education">
+        <h3>Education</h3>
+        <!-- Research Section -->
+          <div class="exp-card">
+          <img src="assets/iitb-logo.png" alt="IIT Bombay Logo" class="exp-logo">
+          <div class="exp-details">
+            <h3>Undergraduation | IIT Bombay</h3>
+            <span class="exp-duration">July 2023 – May 2027</span>
+            <p>Currently pursuing B.Tech with majors in Computer Science and Engineering and Double minor in Biosciences and Artificial Intelligence and Data Science</p>
+<p class="edu-detail">
+  Courses undertaken:<br>
+  Software Systems Lab, Discrete Structures, Data Structures & Algorithms †, 
+  Digital Logic Design & Computer Architecture †, Data Analysis & Interpretation, 
+  Logic for CS, Game Theory & Algorithmic Mechanism Design, Artificial Intelligence & 
+  Machine Learning †, Operating Systems †, Design & Analysis of Algorithms, 
+  Medical Image Computing, Computer Networks†*, Abstraction & Paradigms of Languages†*, 
+  Automata Theory*, Calculus, Linear Algebra & Differential Equations
+</p>
+          </div>
+        </div>
+        <!--class 12-->
+        <!-- Research Section -->
+          <div class="exp-card">
+          <img src="assets/gis.png" alt="GIS Logo" class="exp-logo">
+          <div class="exp-details">
+            <h3>Intermediate | Gyankalash International School</h3>
+            <span class="exp-duration">April 2021 – April 2023</span>
+            <p>Secured 98.2% Marks in CBSE board class 12 in 2023 with the award of district topper</p>
+            <p class="edu-detail">
+  Courses undertaken:<br>
+Physics, Chemistry, Mathematics, Biology, English Core
+</p>
+          </div>
+        </div>
+        <!--Class 10-->
+        <!-- Research Section -->
+         <div class="exp-card">
+          <img src="assets/gis.png" alt="GIS Logo" class="exp-logo">
+          <div class="exp-details">
+            <h3>Matricalculation | Gyankalash International School</h3>
+            <span class="exp-duration">April 2019 – April 2021</span>
+            <p>Secured 99.2% Marks in CBSE board class 10 in 2021 with the award of district topper</p>
+            <p class="edu-detail">
+  Courses undertaken:<br>
+Mathematics, Science, Social Science, English, Hindi
+</p>
+          </div>
+        </div>
+    </div>
+    <div class="exp-content" id="tech">
+        <h3>Tech Teams</h3>
+        <!-- Research Section -->
+          <div class="exp-card">
+          <img src="assets/iitb-logo.png" alt="IIT Bombay Logo" class="exp-logo">
+          <div class="exp-details">
+            <h3>Research Scientist, IGEM | IIT Bombay</h3>
+            <span class="exp-duration">Oct 2024</span>
+            <ul>
+              <li>Won IIT Bombay’s first-ever Gold at iGEM competition at Paris among 400+ teams and nominated for Best Climate Crisis Project</li>
+              <li>Engineered lipidome and calcification pathways in E.Huxleyi for enhanced carbon capture using genetic tools</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    <div class="exp-content" id="mentor">
+        <h3>Mentorship</h3>
+        <!-- Research Section -->
+          <div class="exp-card">
+          <img src="assets/smp.jpeg" alt="SMP Logo" class="exp-logo">
+          <div class="exp-details">
+            <h3>Department Academic Mentor | IIT Bombay</h3>
+            <span class="exp-duration">July 2025 – May 2026</span>
+            <p> Selected among 70+ applicants via personality tests and interviews to mentor CSE sophomores in Academic and personal life in general</p>
+          </div>
+        </div>
+        <!--wids-->
+        <!-- Research Section -->
+          <div class="exp-card">
+          <img src="assets/iitb-logo.png" alt="IIT Bombay Logo" class="exp-logo">
+          <div class="exp-details">
+            <h3>winters in Data science Mentor | IIT Bombay</h3>
+            <span class="exp-duration">Dec 2024 – Jan 2024</span>
+            <p>Created content on Twitter Sentiment Analysis using NLP</p>
+          </div>
+        </div>
+        <!--LS-->
+        <!-- Research Section -->
+           <div class="exp-card">
+          <img src="assets/iitb-logo.png" alt="IIT Bombay Logo" class="exp-logo">
+          <div class="exp-details">
+            <h3>Learnerspace Mentor | IIT Bombay</h3>
+            <span class="exp-duration">May 2024 – July 2024</span>
+            <p>Mentored 50+ students; created Synthetic Biology content</p>
+          </div>
+        </div> 
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+<section id="achievements" class="section achievements-section">
+    <h2>Achievements</h2>
+    <div class="achievements-row">
+        <div class="achievement-card">
+            <h3>Scholastic Achievements</h3>
+            <ul>
+                <li>All India Rank 28 in JEE Advanced 2023</li>
+                <li>99.86 percentile in JEE Main 2023</li>
+                <li>99.76 percentile in Medical Entrance examination NEET(UG) 2023</li>
+                <li>All India Rank 138 in KVPY 2021</li>
+                <li>Qualified Stage 1 of National Talent Search Examination (NTSE)</li>
+            </ul>
+        </div>
+        <div class="achievement-card">
+            <h3>Olympiads</h3>
+            <ul>
+                <li>National Gold Medal and attended OCSC camp for ICHO 2023 - HBCSE</li>
+                <li>Qualified INAO and INBO and invited for OCSC camp of IOAA and IBO 2023</li>
+                <li>Qualified for National round for all olympiads: Physics, Chemistry, Mathematics, Biology and Astronomy</li>
+                <li> Qualified American Mathematics competition-12 A 2023 by MAA-USA</li>
+                <li>Qualified for American Invitational Mathematics Examination 2023</li>
+            </ul>
+        </div>
+        <div class="achievement-card">
+            <h3>Contests & Hackathons</h3>
+            <ul>
+                <li>Citadel Securities - First Runners Up among 30,000+ participants across the nation with a prize money of 1000USD in India Terminal in April 2025</li>
+            </ul>
+        </div>
+        <div class="achievement-card">
+            <h3>Summer Programs</h3>
+            <ul>Jane Street SEE IIT (Hong Kong SAR): selected among top 50 students across IITs and learnt OCaml, Jane Street’s favored programming language created a modern version of the classic snake game by implementing trie data structure in ocaml</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+  <!-- Projects Section -->
+<section id="projects" class="section projects-section">
+    <h2 class="sexy-heading">
+        <span class="heading-icon">🚀</span>
+        Projects
+        <span class="heading-underline"></span>
+    </h2>
+    <div class="key-projects-row">
+        <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>Personal portfolio built with HTML, CSS, and JavaScript. Responsive design and interactive UI.</p>
+                <a href="https://github.com/sky-gupta/portfolio" target="_blank">View Code</a>
+        </div>
+        <div class="card">
+                <h3>Task Manager App</h3>
+                <p>Full-stack task manager using React and Node.js. Features authentication and real-time updates.</p>
+                <a href="https://github.com/sky-gupta/task-manager" target="_blank">View Code</a>
+        </div>
+        <div class="card">
+                <h3>Weather Dashboard</h3>
+                <p>Weather app using OpenWeather API. Displays current and forecast data with dynamic charts.</p>
+                <a href="https://github.com/sky-gupta/weather-dashboard" target="_blank">View Code</a>
+        </div>
+        <div class="card">
+                <h3>Chat Application</h3>
+                <p>Real-time chat app built with Socket.io and Express. Supports multiple rooms and emojis.</p>
+                <a href="https://github.com/sky-gupta/chat-app" target="_blank">View Code</a>
+        </div>
+        <div class="card">
+                <h3>Image Gallery</h3>
+                <p>Responsive image gallery with lazy loading and modal previews. Built with vanilla JavaScript.</p>
+                <a href="https://github.com/sky-gupta/image-gallery" target="_blank">View Code</a>
+        </div>
+    </div>
+</section>
+<div class="more-projects-row" style="text-align:center; margin-top:2rem;">
+    <button id="moreProjectsBtn" class="btn">More Projects</button>
+</div>
+<div id="moreProjectsModal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" id="closeModalBtn">&times;</span>
+        <h3>Other Projects</h3>
+        <div class="card-container">
+            <div class="card">
+                <h4>Blog Platform</h4>
+                <p>Multi-user blog platform with Markdown support and comments.</p>
+            </div>
+            <div class="card">
+                <h4>Expense Tracker</h4>
+                <p>Track expenses and visualize spending trends with charts.</p>
+            </div>
+            <div class="card">
+                <h4>Quiz App</h4>
+                <p>Interactive quiz application with timer and score tracking.</p>
+            </div>
+            <div class="card">
+                <h4>Notes App</h4>
+                <p>Simple notes app with local storage and search functionality.</p>
+            </div>
+            <div class="card">
+                <h4>Markdown Editor</h4>
+                <p>Live Markdown editor with preview and export options.</p>
+            </div>
+            <div class="card">
+                <h4>Portfolio Generator</h4>
+                <p>CLI tool to generate static portfolio sites from JSON data.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <!-- Extracurricular Section -->
+<section id="extracurriculars" class="section extracurriculars-section">
+  <h2>Extracurriculars</h2>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab active" data-target="painting">🎨 Painting</button>
+    <button class="tab" data-target="dancing">💃 Dancing</button>
+    <button class="tab" data-target="swimming">🏊 Swimming</button>
+    <button class="tab" data-target="cooking">🍳 Cooking</button>
+    <button class="tab" data-target="tech">💻 Tech</button>
+  </div>
+
+  <!-- Content Panels -->
+  <div class="tab-content">
+
+    <!-- Painting -->
+    <div class="tab-panel active" id="painting">
+      <p>Painting is my way of expressing creativity, emotions and my favourite pastime. I enjoy experimenting with different styles and mediums. I have expertise in pencil shading, character sketching, landscape and costume designing. I aspire to learn oil pistils and master watercolour paintings</p>
+      <p class="highlight-text">Fun fact: I have a small collection of my paintings at home! </p>
+      <div class="gallery">
+        <img src="assets/pencil_potrait.jpg" alt="Painting 1">
+        <img src="assets/scribble.jpg" alt="Painting 2">
+        <img src="assets/landscape.jpg" alt="Painting 3">
+        <img src="assets/costume.jpg" alt="Painting 4">
+        <img src="assets/water.jpg" alt="Painting 5">
+      </div>
+    </div>
+
+    <!-- Dancing -->
+    <div class="tab-panel" id="dancing">
+      <p>I enjoy classical and contemporary dance including kathak and bharatnatyam. It helps me stay fit, express emotions, and explore creativity.</p>
+      <p class="highlight-text">Fun fact: I performed in Annual Insync Dance Show at IIT Bombay twice, CSEA freshers welcome and CSE traditional day but I am too shy to share the videos sadly... 🎶</p>
+    </div>
+
+    <!-- Swimming -->
+    <div class="tab-panel" id="swimming">
+      <p>Swimming keeps me fresh and active. I used to compete in freestyle and relay events during my high school days but left the hobby due to JEE :(</p>
+    </div>
+
+    <!-- Cooking -->
+    <div class="tab-panel" id="cooking">
+      <p> I enjoy eating a lot more than cooking rather. I love trying new recipes and experimenting with flavors. Baking is my pastime. I miss the old days when I used to cook and eat with my sister :(</p>
+      <p class="highlight-text">I enhanced this hobby during my summer research internship in Europe when I had to cook for myself as I am vegetarian hehe</p>
+      <div class="gallery">
+        <img src="assets/pasta.jpg" alt="Cooking 1">
+        <img src="assets/pakoras.jpg" alt="Cooking 2">
+        <img src="assets/cheif.jpg" alt="Cooking 3">
+      </div>
+    </div>
+
+    <!-- Tech -->
+    <div class="tab-panel" id="tech">
+      <p>I love exploring technology, hackathons, and creating innovative projects.</p>
+      <div class="tech-links">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Project Demo Video</a>
+        <a href="https://github.com/" target="_blank">My GitHub</a>
+      </div>
+      <img src="images/tech1.jpg" alt="Tech Work">
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+<section id="contact" class="section">
+  <h2>Contact Me</h2>
+  <form class="contact-form" id="contact-form">
+    <input type="text" name="from_name" placeholder="Your Name" required>
+    <input type="email" name="from_email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button class="btn" type="submit">Send</button>
+  </form>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
